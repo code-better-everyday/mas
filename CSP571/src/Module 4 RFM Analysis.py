@@ -25,7 +25,7 @@ pandas.set_option('max_colwidth', None)
 
 pandas.options.display.float_format = '{:,.10f}'.format
 
-transaction = pandas.read_csv('C:\\IIT\\Data Preparation and Analysis\\Data\\rfm_Transactions.csv')
+transaction = pandas.read_csv(r'G:\My Drive\PROFESSIONAL\MAS24\Courses\CSP571\data\\rfm_Transactions.csv')
 
 # Calculate Number of days since 12/31/2020
 
