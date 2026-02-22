@@ -51,7 +51,7 @@ for k in range(max_nCluster):
    if (nCluster > 1):
        S = metrics.silhouette_score(trainData, member)
    else:
-       S = numpy.NaN
+       S = numpy.nan
 
    # Calculate the Within-Cluster Sum of Squares and Cluster sizes
    WCSS = numpy.zeros(nCluster)
