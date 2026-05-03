@@ -24,7 +24,7 @@ def generate_mock_data():
             ('Basic', 9.99, '720p', 1),
             ('Standard', 15.49, '1080p', 2),
             ('Premium', 22.99, '4K', 4),
-            ('Testing', 0.00, '480p', 1)  # The 4th plan with 0 users
+            ('Testing', 0.00, '480p', 1)  # this is dummy - want to test - no users on this plan
         ]
         cursor.executemany(
             "INSERT INTO SubscriptionPlan (PlanName, MonthlyPrice, Resolution, MaxUsers) VALUES (%s, %s, %s, %s)",

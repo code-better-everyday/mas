@@ -1,3 +1,7 @@
+# create a simple command-line application that allows an admin to perform CRUD operations 
+# on the UserAccount table in the NetflixDB database. 
+# The application will connect to the MySQL database, execute SQL queries, and display results
+
 import mysql.connector
 from datetime import date
 
